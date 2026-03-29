@@ -173,6 +173,10 @@ section h2 {
 }
 
 /* Interventions */
+.interventions {
+    max-width: 1400px;
+}
+
 .intervention-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
