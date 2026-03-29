@@ -30,7 +30,7 @@ const observer = new IntersectionObserver(entries => {
     });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.project-card, .about-content, .contact').forEach(el => {
+document.querySelectorAll('.intervention-card, .about-content, .contact').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
